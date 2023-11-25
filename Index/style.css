@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tela{
+    width: 480px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+strong{
+    color: red;
+}
+
+header{
+    text-align: center;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.links{
+    margin: 10px;
+    padding: 10px;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cabeçalho{
+    background-color: gray;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.cabeçalho:hover{
+    background-color: lightgray;
+}
+
+.mudança, .mudança2:hover{
+    cursor: pointer;
+}
+
+.mudança2:hover{
+    background-color: lightgray;
+}
+
+.descrição{
+    margin-left: 3px;
+    margin-right: 5px;
+}
+
+img{
+    width: 100px;
+    height: 150px;
+}
+
+.principal{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+}
+
+.área_de_jogos{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+}
+
+.pesquisa{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+}
+
+.jogo{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 3px;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+
+    border-style: double;
+
+    overflow-x: auto;
+
+}
+
+.games{
+    display: flex;
+}
+
+.área_de_livros{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+}
+
+.livro{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 3px;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+
+    border-style: double;
+
+    overflow-x: auto;
+}
+
+.área_de_filmes{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+}
+
+.filme{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 3px;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+
+    border-style: double;
+
+    overflow-x: auto;
+}
+
+.jogo, .livro{
+    display: flex;
+}
+
+.botões{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.botões:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
